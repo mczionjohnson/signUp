@@ -1,0 +1,192 @@
+body{
+    margin: 0;
+
+}
+
+.container{
+    padding: 8rem 10rem;
+    display: flex;
+    background-color: #F7FDFC;
+    ;
+    
+}
+
+.left-card{
+    width: 100%;
+    padding: 3rem;
+    padding-left:0;
+}
+
+.right-card{
+    width: 100%;
+    border-radius: 2px;
+    box-shadow: 0px 0px 6px;
+    background-color: #fff;
+    padding: 1rem 2rem;
+}
+
+.form-wrapper{
+    width: 100%;
+}
+
+.form{
+    display: flex;
+    margin-bottom: 0.5rem;
+}
+
+.form-column{
+    display: flex;
+    flex-direction: column;
+    
+    width: 100%;
+}
+
+.form-label{
+    margin: 3px;
+}
+
+.form-input{
+    padding: 5px;
+}
+
+.form-input:hover {
+    border-color:#2EC4B6;
+    box-shadow: 0px 0px 6px;
+}
+
+.input-spacing{
+    margin-right: 1rem;
+}
+
+.btn-wrapper{
+    padding: 0;
+    margin: 0.5rem 0;
+    border-radius: 2px;
+    border: solid;
+    border-color:#2EC4B6;
+}
+.btn{
+    font-size: 16px;
+    padding: 5px;
+    color: #fff;
+    background-color: #2EC4B6;
+
+    border: 0;    
+}
+
+.footer{
+    text-align: center;
+}
+.footer-text{
+    font-size: 14px;
+}
+
+
+/* @media (max-width: 425px) {
+    .container{
+        padding: 2rem;
+        display: block;
+        background-color: #F7FDFC;
+        ;
+        
+    }
+    .left-card{
+        width: 100%;
+        padding: 3rem;
+        padding-left:0;
+    }
+
+    #logo{
+        height: 40px;
+    }
+    
+    .head-one{
+        font-size: 30px;
+    }
+
+    .head-two{
+        font-size: 16px;
+        color: #737373;
+
+    }
+
+    .right-card{
+        width: auto;
+        border-radius: 2px;
+        box-shadow: 0px 0px 6px;
+        background-color: #fff;
+        padding: 1rem 2rem;
+    }
+    
+    .form-wrapper{
+        width: auto;
+    }
+    
+    .form{
+        display: block;
+        margin-bottom: 0.5rem;
+    }
+    
+    .form-column{
+        margin-bottom: 1rem;
+
+    }
+    
+  } */
+
+
+@media (max-width: 768px) {
+    .container{
+        padding: 2rem;
+        display: block;
+        background-color: #F7FDFC;
+        ;
+        
+    }
+    .left-card{
+        width: 100%;
+        padding: 3rem;
+        padding-left:0;
+    }
+
+    #logo{
+        height: 40px;
+    }
+    
+    .head-one{
+        font-size: 30px;
+    }
+
+    .head-two{
+        font-size: 16px;
+        color: #737373;
+
+    }
+
+    .right-card{
+        width: auto;
+        border-radius: 2px;
+        box-shadow: 0px 0px 6px;
+        background-color: #fff;
+        padding: 1rem 2rem;
+    }
+    
+    .form-wrapper{
+        width: auto;
+    }
+    
+    .form{
+        display: block;
+        margin-bottom: 0.5rem;
+    }
+    
+    .form-column{
+        margin-bottom: 1rem;
+
+    }
+    
+  }
+  
+  /* @media (max-width: 1024px) {
+
+  } */
